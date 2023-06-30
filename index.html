@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agdasima&family=Orbitron:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="stil.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.7.0/math.min.js"></script>
+    <title>Basic Calculator</title>
+  </head>
+  <body>
+    <main>
+      <div class="container center">
+        <div class="title">
+          <h1 class="heading">Basic Calculator</h1>
+          <!--<h2 class="resolution" style="color: orange; text-align: center; font-size: 3rem;"></h2>-->
+        </div>
+        <div class="calculator-wrapper center">
+          <div class="screen center">
+            <input class="calculation" maxlength="12" value="0" name="screen" disabled></input>
+          </div>
+          <div class="button-layer">
+            <button class="btn" data-digit="10">C</button>
+            <button class="btn" data-digit="11">CE</button
+            ><button class="btn" data-digit="12">LOG</button>
+            <button class="btn trans" data-digit="13">+</button>
+            <button class="btn" data-digit="1">1</button>
+            <button class="btn" data-digit="2">2</button
+            ><button class="btn" data-digit="3">3</button
+            ><button class="btn trans" data-digit="14">-</button
+            ><button class="btn" data-digit="4">4</button
+            ><button class="btn" data-digit="5">5</button
+            ><button class="btn" data-digit="6">6</button
+            ><button class="btn trans" data-digit="15">÷</button
+            ><button class="btn" data-digit="7">7</button
+            ><button class="btn" data-digit="8">8</button
+            ><button class="btn" data-digit="9">9</button
+            ><button class="btn trans" data-digit="16">*</button
+            ><button class="btn" data-digit="17">+/-</button
+            ><button class="btn" data-digit="0">0</button
+            ><button class="btn" data-digit="18">,</button>
+            <button class="btn trans" data-digit="19">=</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
